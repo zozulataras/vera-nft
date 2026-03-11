@@ -3,7 +3,7 @@ name: Avalanche Subnet Node
 on:
   schedule:
     # Запуск у 05-ту хвилину кожні 4 години (00:05, 04:05 і т.д.)
-    - cron: '5 */5 * * *'
+    - cron: '5 */8 * * *'
   workflow_dispatch:
 
 jobs:
